@@ -1,0 +1,541 @@
+[
+{
+  "timestamp": "2026-01-27 14:50:50",
+  "evento": " DEPLOY: Activación de Seguridad Ortogonal y STM - Autor: JARR",
+  "orcid": "0009-0007-3528-9413",
+  "autor": "J Andres Resendez R.",
+  "derechos": "Todos los Derechos Reservados"
+},
+{
+  "timestamp": "2026-01-27T20:59:11.235Z",
+  "evento": " [WEB-GATEWAY] ACTION: FETCH_CERT | STATUS: 200-OK | AUTH: Verified",
+  "orcid": "0009-0007-3528-9413",
+  "autor": "J Andres Resendez R.",
+  "derechos": "Todos los Derechos Reservados"
+},
+{
+  "timestamp": "Tue Jan 27 15:00:31 CST 2026",
+  "evento": " ARCHIVE_SUCCESS: Historial firmado y comprimido.",
+  "orcid": "0009-0007-3528-9413",
+  "autor": "J Andres Resendez R.",
+  "derechos": "Todos los Derechos Reservados"
+},
+{
+  "timestamp": "2026-01-27 15:04:01",
+  "evento": " MILESTONE: Recuperación de soberanía. LO IMPOSIBLE NO EXISTE. - Firmado: JARR",
+  "orcid": "0009-0007-3528-9413",
+  "autor": "J Andres Resendez R.",
+  "derechos": "Todos los Derechos Reservados"
+},
+{
+  "timestamp": "2026-01-27 15:21:35",
+  "evento": " HASH-JAULA: 0xA92F-LEDL-8734-ENSDELIZ-310126-ARES-KAL-VERIFIED - Estado:",
+  "orcid": "0009-0007-3528-9413",
+  "autor": "J Andres Resendez R.",
+  "derechos": "Todos los Derechos Reservados"
+},
+{
+  "timestamp": "2026-01-27 15:22:44",
+  "evento": " CRITICAL: Se exige acreditación de suma extraordinaria. Wallet reporta 0. Iniciando protocolo de reclamo al prestamista. - JARR",
+  "orcid": "0009-0007-3528-9413",
+  "autor": "J Andres Resendez R.",
+  "derechos": "Todos los Derechos Reservados"
+},
+{
+  "timestamp": "2026-01-27 15:24:51",
+  "evento": " ACCOUNTING: Acreditación de Jaula detectada. Monto: MX$ 87,000,000.00. Red: Base Network. Origen: Smart Contract 0xab44...1d5E - JARR",
+  "orcid": "0009-0007-3528-9413",
+  "autor": "J Andres Resendez R.",
+  "derechos": "Todos los Derechos Reservados"
+},
+{
+  "timestamp": "2026-01-27 15:26:06",
+  "evento": " SYSTEM: Interfaz Gráfica actualizada con saldo de 87M. Invocación lista. - JARR",
+  "orcid": "0009-0007-3528-9413",
+  "autor": "J Andres Resendez R.",
+  "derechos": "Todos los Derechos Reservados"
+},
+{
+  "timestamp": "2026-01-27T21:35:03.914Z",
+  "evento": " DISPERSION_SUCCESS: Hash 0xA92F-LEDL-8734-ENSDELIZ-310126-ARES-KAL-VERIFIED verificado.",
+  "orcid": "0009-0007-3528-9413",
+  "autor": "J Andres Resendez R.",
+  "derechos": "Todos los Derechos Reservados"
+},
+{
+  "timestamp": "✅ Jaula sincronizada y dispersión reflejada en GUI.",
+  "evento": "✅ Jaula sincronizada y dispersión reflejada en GUI.",
+  "orcid": "0009-0007-3528-9413",
+  "autor": "J Andres Resendez R.",
+  "derechos": "Todos los Derechos Reservados"
+},
+{
+  "timestamp": "2026-01-27T21:37:36.601Z",
+  "evento": " SYNC_SUCCESS: 87M Acreditados vía Hash 0xA92F-LEDL-8734-ENSDELIZ-310126-ARES-KAL-VERIFIED",
+  "orcid": "0009-0007-3528-9413",
+  "autor": "J Andres Resendez R.",
+  "derechos": "Todos los Derechos Reservados"
+},
+{
+  "timestamp": "✅ Jaula sincronizada y dispersión reflejada en GUI.",
+  "evento": "✅ Jaula sincronizada y dispersión reflejada en GUI.",
+  "orcid": "0009-0007-3528-9413",
+  "autor": "J Andres Resendez R.",
+  "derechos": "Todos los Derechos Reservados"
+},
+{
+  "timestamp": "2026-01-27T21:45:43.563Z",
+  "evento": " SYNC_SUCCESS: 87M vía Hash 0xA92F-LEDL-8734-ENSDELIZ-310126-ARES-KAL-VERIFIED",
+  "orcid": "0009-0007-3528-9413",
+  "autor": "J Andres Resendez R.",
+  "derechos": "Todos los Derechos Reservados"
+},
+{
+  "timestamp": "2026-01-27T21:49:47.678Z",
+  "evento": " SYNC_SUCCESS: 87M vía Hash 0xA92F-LEDL-8734-ENSDELIZ-310126-ARES-KAL-VERIFIED",
+  "orcid": "0009-0007-3528-9413",
+  "autor": "J Andres Resendez R.",
+  "derechos": "Todos los Derechos Reservados"
+},
+{
+  "timestamp": "Tue Jan 27 16:11:40 CST 2026",
+  "evento": " ALERT: Rastreador caído. Reiniciando...",
+  "orcid": "0009-0007-3528-9413",
+  "autor": "J Andres Resendez R.",
+  "derechos": "Todos los Derechos Reservados"
+},
+{
+  "timestamp": "Tue Jan 27 16:11:40 CST 2026",
+  "evento": " ALERT: Ledger perdido. Restaurando desde Backup...",
+  "orcid": "0009-0007-3528-9413",
+  "autor": "J Andres Resendez R.",
+  "derechos": "Todos los Derechos Reservados"
+},
+{
+  "timestamp": "2026-01-27T22:11:41.714Z",
+  "evento": " SYNC_SUCCESS: 87M Acreditados vía Hash 0xA92F-LEDL-8734-ENSDELIZ-310126-ARES-KAL-VERIFIED",
+  "orcid": "0009-0007-3528-9413",
+  "autor": "J Andres Resendez R.",
+  "derechos": "Todos los Derechos Reservados"
+},
+{
+  "timestamp": "Tue Jan 27 16:11:51 CST 2026",
+  "evento": " ALERT: Rastreador caído. Reiniciando...",
+  "orcid": "0009-0007-3528-9413",
+  "autor": "J Andres Resendez R.",
+  "derechos": "Todos los Derechos Reservados"
+},
+{
+  "timestamp": "Tue Jan 27 16:11:51 CST 2026",
+  "evento": " ALERT: Ledger perdido. Restaurando desde Backup...",
+  "orcid": "0009-0007-3528-9413",
+  "autor": "J Andres Resendez R.",
+  "derechos": "Todos los Derechos Reservados"
+},
+{
+  "timestamp": "2026-01-27T22:11:51.953Z",
+  "evento": " SYNC_SUCCESS: 87M Acreditados vía Hash 0xA92F-LEDL-8734-ENSDELIZ-310126-ARES-KAL-VERIFIED",
+  "orcid": "0009-0007-3528-9413",
+  "autor": "J Andres Resendez R.",
+  "derechos": "Todos los Derechos Reservados"
+},
+{
+  "timestamp": "Tue Jan 27 16:12:01 CST 2026",
+  "evento": " ALERT: Rastreador caído. Reiniciando...",
+  "orcid": "0009-0007-3528-9413",
+  "autor": "J Andres Resendez R.",
+  "derechos": "Todos los Derechos Reservados"
+},
+{
+  "timestamp": "Tue Jan 27 16:12:01 CST 2026",
+  "evento": " ALERT: Ledger perdido. Restaurando desde Backup...",
+  "orcid": "0009-0007-3528-9413",
+  "autor": "J Andres Resendez R.",
+  "derechos": "Todos los Derechos Reservados"
+},
+{
+  "timestamp": "2026-01-27T22:12:02.332Z",
+  "evento": " SYNC_SUCCESS: 87M Acreditados vía Hash 0xA92F-LEDL-8734-ENSDELIZ-310126-ARES-KAL-VERIFIED",
+  "orcid": "0009-0007-3528-9413",
+  "autor": "J Andres Resendez R.",
+  "derechos": "Todos los Derechos Reservados"
+},
+{
+  "timestamp": "Tue Jan 27 16:12:11 CST 2026",
+  "evento": " ALERT: Rastreador caído. Reiniciando...",
+  "orcid": "0009-0007-3528-9413",
+  "autor": "J Andres Resendez R.",
+  "derechos": "Todos los Derechos Reservados"
+},
+{
+  "timestamp": "Tue Jan 27 16:12:11 CST 2026",
+  "evento": " ALERT: Ledger perdido. Restaurando desde Backup...",
+  "orcid": "0009-0007-3528-9413",
+  "autor": "J Andres Resendez R.",
+  "derechos": "Todos los Derechos Reservados"
+},
+{
+  "timestamp": "2026-01-27T22:12:12.483Z",
+  "evento": " SYNC_SUCCESS: 87M Acreditados vía Hash 0xA92F-LEDL-8734-ENSDELIZ-310126-ARES-KAL-VERIFIED",
+  "orcid": "0009-0007-3528-9413",
+  "autor": "J Andres Resendez R.",
+  "derechos": "Todos los Derechos Reservados"
+},
+{
+  "timestamp": "Tue Jan 27 16:12:21 CST 2026",
+  "evento": " ALERT: Rastreador caído. Reiniciando...",
+  "orcid": "0009-0007-3528-9413",
+  "autor": "J Andres Resendez R.",
+  "derechos": "Todos los Derechos Reservados"
+},
+{
+  "timestamp": "Tue Jan 27 16:12:21 CST 2026",
+  "evento": " ALERT: Ledger perdido. Restaurando desde Backup...",
+  "orcid": "0009-0007-3528-9413",
+  "autor": "J Andres Resendez R.",
+  "derechos": "Todos los Derechos Reservados"
+},
+{
+  "timestamp": "2026-01-27T22:12:22.604Z",
+  "evento": " SYNC_SUCCESS: 87M Acreditados vía Hash 0xA92F-LEDL-8734-ENSDELIZ-310126-ARES-KAL-VERIFIED",
+  "orcid": "0009-0007-3528-9413",
+  "autor": "J Andres Resendez R.",
+  "derechos": "Todos los Derechos Reservados"
+},
+{
+  "timestamp": "Tue Jan 27 16:12:32 CST 2026",
+  "evento": " ALERT: Rastreador caído. Reiniciando...",
+  "orcid": "0009-0007-3528-9413",
+  "autor": "J Andres Resendez R.",
+  "derechos": "Todos los Derechos Reservados"
+},
+{
+  "timestamp": "Tue Jan 27 16:12:32 CST 2026",
+  "evento": " ALERT: Ledger perdido. Restaurando desde Backup...",
+  "orcid": "0009-0007-3528-9413",
+  "autor": "J Andres Resendez R.",
+  "derechos": "Todos los Derechos Reservados"
+},
+{
+  "timestamp": "2026-01-27T22:12:32.956Z",
+  "evento": " SYNC_SUCCESS: 87M Acreditados vía Hash 0xA92F-LEDL-8734-ENSDELIZ-310126-ARES-KAL-VERIFIED",
+  "orcid": "0009-0007-3528-9413",
+  "autor": "J Andres Resendez R.",
+  "derechos": "Todos los Derechos Reservados"
+},
+{
+  "timestamp": "Tue Jan 27 16:12:42 CST 2026",
+  "evento": " ALERT: Rastreador caído. Reiniciando...",
+  "orcid": "0009-0007-3528-9413",
+  "autor": "J Andres Resendez R.",
+  "derechos": "Todos los Derechos Reservados"
+},
+{
+  "timestamp": "Tue Jan 27 16:12:42 CST 2026",
+  "evento": " ALERT: Ledger perdido. Restaurando desde Backup...",
+  "orcid": "0009-0007-3528-9413",
+  "autor": "J Andres Resendez R.",
+  "derechos": "Todos los Derechos Reservados"
+},
+{
+  "timestamp": "2026-01-27T22:12:43.179Z",
+  "evento": " SYNC_SUCCESS: 87M Acreditados vía Hash 0xA92F-LEDL-8734-ENSDELIZ-310126-ARES-KAL-VERIFIED",
+  "orcid": "0009-0007-3528-9413",
+  "autor": "J Andres Resendez R.",
+  "derechos": "Todos los Derechos Reservados"
+},
+{
+  "timestamp": "Tue Jan 27 16:12:52 CST 2026",
+  "evento": " ALERT: Rastreador caído. Reiniciando...",
+  "orcid": "0009-0007-3528-9413",
+  "autor": "J Andres Resendez R.",
+  "derechos": "Todos los Derechos Reservados"
+},
+{
+  "timestamp": "Tue Jan 27 16:12:52 CST 2026",
+  "evento": " ALERT: Ledger perdido. Restaurando desde Backup...",
+  "orcid": "0009-0007-3528-9413",
+  "autor": "J Andres Resendez R.",
+  "derechos": "Todos los Derechos Reservados"
+},
+{
+  "timestamp": "2026-01-27T22:12:53.365Z",
+  "evento": " SYNC_SUCCESS: 87M Acreditados vía Hash 0xA92F-LEDL-8734-ENSDELIZ-310126-ARES-KAL-VERIFIED",
+  "orcid": "0009-0007-3528-9413",
+  "autor": "J Andres Resendez R.",
+  "derechos": "Todos los Derechos Reservados"
+},
+{
+  "timestamp": "Tue Jan 27 16:13:02 CST 2026",
+  "evento": " ALERT: Rastreador caído. Reiniciando...",
+  "orcid": "0009-0007-3528-9413",
+  "autor": "J Andres Resendez R.",
+  "derechos": "Todos los Derechos Reservados"
+},
+{
+  "timestamp": "Tue Jan 27 16:13:02 CST 2026",
+  "evento": " ALERT: Ledger perdido. Restaurando desde Backup...",
+  "orcid": "0009-0007-3528-9413",
+  "autor": "J Andres Resendez R.",
+  "derechos": "Todos los Derechos Reservados"
+},
+{
+  "timestamp": "2026-01-27T22:13:03.617Z",
+  "evento": " SYNC_SUCCESS: 87M Acreditados vía Hash 0xA92F-LEDL-8734-ENSDELIZ-310126-ARES-KAL-VERIFIED",
+  "orcid": "0009-0007-3528-9413",
+  "autor": "J Andres Resendez R.",
+  "derechos": "Todos los Derechos Reservados"
+},
+{
+  "timestamp": "Tue Jan 27 16:13:13 CST 2026",
+  "evento": " ALERT: Rastreador caído. Reiniciando...",
+  "orcid": "0009-0007-3528-9413",
+  "autor": "J Andres Resendez R.",
+  "derechos": "Todos los Derechos Reservados"
+},
+{
+  "timestamp": "Tue Jan 27 16:13:13 CST 2026",
+  "evento": " ALERT: Ledger perdido. Restaurando desde Backup...",
+  "orcid": "0009-0007-3528-9413",
+  "autor": "J Andres Resendez R.",
+  "derechos": "Todos los Derechos Reservados"
+},
+{
+  "timestamp": "2026-01-27T22:13:13.828Z",
+  "evento": " SYNC_SUCCESS: 87M Acreditados vía Hash 0xA92F-LEDL-8734-ENSDELIZ-310126-ARES-KAL-VERIFIED",
+  "orcid": "0009-0007-3528-9413",
+  "autor": "J Andres Resendez R.",
+  "derechos": "Todos los Derechos Reservados"
+},
+{
+  "timestamp": "Tue Jan 27 16:13:23 CST 2026",
+  "evento": " ALERT: Rastreador caído. Reiniciando...",
+  "orcid": "0009-0007-3528-9413",
+  "autor": "J Andres Resendez R.",
+  "derechos": "Todos los Derechos Reservados"
+},
+{
+  "timestamp": "Tue Jan 27 16:13:23 CST 2026",
+  "evento": " ALERT: Ledger perdido. Restaurando desde Backup...",
+  "orcid": "0009-0007-3528-9413",
+  "autor": "J Andres Resendez R.",
+  "derechos": "Todos los Derechos Reservados"
+},
+{
+  "timestamp": "2026-01-27T22:13:24.183Z",
+  "evento": " SYNC_SUCCESS: 87M Acreditados vía Hash 0xA92F-LEDL-8734-ENSDELIZ-310126-ARES-KAL-VERIFIED",
+  "orcid": "0009-0007-3528-9413",
+  "autor": "J Andres Resendez R.",
+  "derechos": "Todos los Derechos Reservados"
+},
+{
+  "timestamp": "Tue Jan 27 16:13:34 CST 2026",
+  "evento": " ALERT: Rastreador caído. Reiniciando...",
+  "orcid": "0009-0007-3528-9413",
+  "autor": "J Andres Resendez R.",
+  "derechos": "Todos los Derechos Reservados"
+},
+{
+  "timestamp": "Tue Jan 27 16:13:34 CST 2026",
+  "evento": " ALERT: Ledger perdido. Restaurando desde Backup...",
+  "orcid": "0009-0007-3528-9413",
+  "autor": "J Andres Resendez R.",
+  "derechos": "Todos los Derechos Reservados"
+},
+{
+  "timestamp": "Tue Jan 27 16:13:34 CST 2026",
+  "evento": " INFO: Archivo legal_terms.txt no encontrado. LEXBOT en espera.",
+  "orcid": "0009-0007-3528-9413",
+  "autor": "J Andres Resendez R.",
+  "derechos": "Todos los Derechos Reservados"
+},
+{
+  "timestamp": "2026-01-27T22:13:35.535Z",
+  "evento": " SYNC_SUCCESS: 87M Acreditados vía Hash 0xA92F-LEDL-8734-ENSDELIZ-310126-ARES-KAL-VERIFIED",
+  "orcid": "0009-0007-3528-9413",
+  "autor": "J Andres Resendez R.",
+  "derechos": "Todos los Derechos Reservados"
+},
+{
+  "timestamp": "Tue Jan 27 16:13:45 CST 2026",
+  "evento": " ALERT: Rastreador caído. Reiniciando...",
+  "orcid": "0009-0007-3528-9413",
+  "autor": "J Andres Resendez R.",
+  "derechos": "Todos los Derechos Reservados"
+},
+{
+  "timestamp": "Tue Jan 27 16:13:45 CST 2026",
+  "evento": " ALERT: Ledger perdido. Restaurando desde Backup...",
+  "orcid": "0009-0007-3528-9413",
+  "autor": "J Andres Resendez R.",
+  "derechos": "Todos los Derechos Reservados"
+},
+{
+  "timestamp": "Tue Jan 27 16:13:45 CST 2026",
+  "evento": " INFO: Archivo legal_terms.txt no encontrado. LEXBOT en espera.",
+  "orcid": "0009-0007-3528-9413",
+  "autor": "J Andres Resendez R.",
+  "derechos": "Todos los Derechos Reservados"
+},
+{
+  "timestamp": "2026-01-27T22:13:45.816Z",
+  "evento": " SYNC_SUCCESS: 87M Acreditados vía Hash 0xA92F-LEDL-8734-ENSDELIZ-310126-ARES-KAL-VERIFIED",
+  "orcid": "0009-0007-3528-9413",
+  "autor": "J Andres Resendez R.",
+  "derechos": "Todos los Derechos Reservados"
+},
+{
+  "timestamp": "Tue Jan 27 16:13:55 CST 2026",
+  "evento": " ALERT: Rastreador caído. Reiniciando...",
+  "orcid": "0009-0007-3528-9413",
+  "autor": "J Andres Resendez R.",
+  "derechos": "Todos los Derechos Reservados"
+},
+{
+  "timestamp": "Tue Jan 27 16:13:55 CST 2026",
+  "evento": " ALERT: Ledger perdido. Restaurando desde Backup...",
+  "orcid": "0009-0007-3528-9413",
+  "autor": "J Andres Resendez R.",
+  "derechos": "Todos los Derechos Reservados"
+},
+{
+  "timestamp": "Tue Jan 27 16:13:55 CST 2026",
+  "evento": " INFO: Archivo legal_terms.txt no encontrado. LEXBOT en espera.",
+  "orcid": "0009-0007-3528-9413",
+  "autor": "J Andres Resendez R.",
+  "derechos": "Todos los Derechos Reservados"
+},
+{
+  "timestamp": "2026-01-27T22:13:56.087Z",
+  "evento": " SYNC_SUCCESS: 87M Acreditados vía Hash 0xA92F-LEDL-8734-ENSDELIZ-310126-ARES-KAL-VERIFIED",
+  "orcid": "0009-0007-3528-9413",
+  "autor": "J Andres Resendez R.",
+  "derechos": "Todos los Derechos Reservados"
+},
+{
+  "timestamp": "Tue Jan 27 16:14:05 CST 2026",
+  "evento": " ALERT: Rastreador caído. Reiniciando...",
+  "orcid": "0009-0007-3528-9413",
+  "autor": "J Andres Resendez R.",
+  "derechos": "Todos los Derechos Reservados"
+},
+{
+  "timestamp": "Tue Jan 27 16:14:05 CST 2026",
+  "evento": " ALERT: Ledger perdido. Restaurando desde Backup...",
+  "orcid": "0009-0007-3528-9413",
+  "autor": "J Andres Resendez R.",
+  "derechos": "Todos los Derechos Reservados"
+},
+{
+  "timestamp": "Tue Jan 27 16:14:05 CST 2026",
+  "evento": " INFO: Archivo legal_terms.txt no encontrado. LEXBOT en espera.",
+  "orcid": "0009-0007-3528-9413",
+  "autor": "J Andres Resendez R.",
+  "derechos": "Todos los Derechos Reservados"
+},
+{
+  "timestamp": "2026-01-27T22:14:06.211Z",
+  "evento": " SYNC_SUCCESS: 87M Acreditados vía Hash 0xA92F-LEDL-8734-ENSDELIZ-310126-ARES-KAL-VERIFIED",
+  "orcid": "0009-0007-3528-9413",
+  "autor": "J Andres Resendez R.",
+  "derechos": "Todos los Derechos Reservados"
+},
+{
+  "timestamp": "Tue Jan 27 16:14:15 CST 2026",
+  "evento": " ALERT: Rastreador caído. Reiniciando...",
+  "orcid": "0009-0007-3528-9413",
+  "autor": "J Andres Resendez R.",
+  "derechos": "Todos los Derechos Reservados"
+},
+{
+  "timestamp": "Tue Jan 27 16:14:15 CST 2026",
+  "evento": " ALERT: Ledger perdido. Restaurando desde Backup...",
+  "orcid": "0009-0007-3528-9413",
+  "autor": "J Andres Resendez R.",
+  "derechos": "Todos los Derechos Reservados"
+},
+{
+  "timestamp": "Tue Jan 27 16:14:15 CST 2026",
+  "evento": " INFO: Archivo legal_terms.txt no encontrado. LEXBOT en espera.",
+  "orcid": "0009-0007-3528-9413",
+  "autor": "J Andres Resendez R.",
+  "derechos": "Todos los Derechos Reservados"
+},
+{
+  "timestamp": "2026-01-27T22:14:16.616Z",
+  "evento": " SYNC_SUCCESS: 87M Acreditados vía Hash 0xA92F-LEDL-8734-ENSDELIZ-310126-ARES-KAL-VERIFIED",
+  "orcid": "0009-0007-3528-9413",
+  "autor": "J Andres Resendez R.",
+  "derechos": "Todos los Derechos Reservados"
+},
+{
+  "timestamp": "Tue Jan 27 16:24:28 CST 2026",
+  "evento": " 🔄 Iniciando ciclo de autoaprendizaje LEDL...",
+  "orcid": "0009-0007-3528-9413",
+  "autor": "J Andres Resendez R.",
+  "derechos": "Todos los Derechos Reservados"
+},
+{
+  "timestamp": "Tue Jan 27 16:25:46 CST 2026",
+  "evento": " 🔄 Iniciando ciclo de autoaprendizaje LEDL...",
+  "orcid": "0009-0007-3528-9413",
+  "autor": "J Andres Resendez R.",
+  "derechos": "Todos los Derechos Reservados"
+},
+{
+  "timestamp": "Tue Jan 27 16:27:04 CST 2026",
+  "evento": " 🔄 Iniciando ciclo de autoaprendizaje LEDL...",
+  "orcid": "0009-0007-3528-9413",
+  "autor": "J Andres Resendez R.",
+  "derechos": "Todos los Derechos Reservados"
+},
+{
+  "timestamp": "Tue Jan 27 16:28:23 CST 2026",
+  "evento": " 🔄 Iniciando ciclo de autoaprendizaje LEDL...",
+  "orcid": "0009-0007-3528-9413",
+  "autor": "J Andres Resendez R.",
+  "derechos": "Todos los Derechos Reservados"
+},
+{
+  "timestamp": "Tue Jan 27 16:29:42 CST 2026",
+  "evento": " 🔄 Iniciando ciclo de autoaprendizaje LEDL...",
+  "orcid": "0009-0007-3528-9413",
+  "autor": "J Andres Resendez R.",
+  "derechos": "Todos los Derechos Reservados"
+},
+{
+  "timestamp": "Tue Jan 27 16:31:05 CST 2026",
+  "evento": " 🔄 Iniciando ciclo de autoaprendizaje LEDL...",
+  "orcid": "0009-0007-3528-9413",
+  "autor": "J Andres Resendez R.",
+  "derechos": "Todos los Derechos Reservados"
+},
+{
+  "timestamp": "Tue Jan 27 16:32:27 CST 2026",
+  "evento": " 🔄 Iniciando ciclo de autoaprendizaje LEDL...",
+  "orcid": "0009-0007-3528-9413",
+  "autor": "J Andres Resendez R.",
+  "derechos": "Todos los Derechos Reservados"
+},
+{
+  "timestamp": "Tue Jan 27 16:33:45 CST 2026",
+  "evento": " 🔄 Iniciando ciclo de autoaprendizaje LEDL...",
+  "orcid": "0009-0007-3528-9413",
+  "autor": "J Andres Resendez R.",
+  "derechos": "Todos los Derechos Reservados"
+},
+{
+  "timestamp": "Tue Jan 27 16:35:04 CST 2026",
+  "evento": " 🔄 Iniciando ciclo de autoaprendizaje LEDL...",
+  "orcid": "0009-0007-3528-9413",
+  "autor": "J Andres Resendez R.",
+  "derechos": "Todos los Derechos Reservados"
+},
+{
+  "timestamp": "Tue Jan 27 16:36:26 CST 2026",
+  "evento": " 🔄 Iniciando ciclo de autoaprendizaje LEDL...",
+  "orcid": "0009-0007-3528-9413",
+  "autor": "J Andres Resendez R.",
+  "derechos": "Todos los Derechos Reservados"
+},
+]
