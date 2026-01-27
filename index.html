@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+<head>
+    <meta charset="UTF-8">
+    <title>Cerebro Operativo LEDL - Terminal Soberana</title>
+    <style>
+        body, html { margin: 0; padding: 0; width: 100%; height: 100%; overflow: hidden; background: #000; font-family: 'Courier New', monospace; }
+        canvas { position: absolute; top: 0; left: 0; z-index: 1; }
+        .escritorio {
+            position: absolute;
+            top: 50%; left: 50%;
+            transform: translate(-50%, -50%);
+            width: 95vw; height: 95vh;
+            background: url('https://raw.githubusercontent.com/AndresResendez/LEDL/main/1768917008707.jpg') no-repeat center center;
+            background-size: contain;
+            z-index: 2;
+            box-shadow: 0 0 50px rgba(0, 255, 0, 0.2);
+        }
+        .hotspot { position: absolute; cursor: pointer; border-radius: 5px; }
+        .hotspot:hover { background: rgba(0, 255, 0, 0.1); border: 1px solid #0f0; box-shadow: 0 0 15px #0f0; }
+        
+        /* Coordenadas de Nodos sobre tu diseño de Canva */
+        #btn-patentes { top: 38%; right: 5.5%; width: 18%; height: 4.5%; }
+        #btn-donaciones { top: 29.5%; right: 5.5%; width: 18%; height: 4.5%; }
+        #btn-orcid { bottom: 1%; left: 40%; width: 20%; height: 4%; }
+        
+        #status-box {
+            position: absolute; top: 68%; right: 6.5%; width: 26%; height: 11%;
+            color: #0f0; font-size: 11px; overflow: hidden; pointer-events: none;
+            line-height: 1.2;
+        }
+    </style>
+</head>
+<body>
+    <canvas id="matrix"></canvas>
+    <div class="escritorio">
+        <div id="btn-patentes" class="hotspot" onclick="location.href='/patentes'" title="Libro Maestro de Patentes"></div>
+        <div id="btn-donaciones" class="hotspot" onclick="location.href='/donaciones'" title="Fondeo Binance/Google Pay"></div>
+        <div id="btn-orcid" class="hotspot" onclick="window.open('https://orcid.org/0009-0007-3528-9413')" title="Verificar Investigador"></div>
+        <div id="status-box">
+            [SYS] NÚCLEO ACTIVO...<br>
+            [AIKO] Cifrado 256-bit.<br>
+            [ARES] Retorno 200% OK.<br>
+            [VIGILANTE] Buscando...
+        </div>
+    </div>
+
+    <script>
+        const canvas = document.getElementById('matrix');
+        const ctx = canvas.getContext('2d');
+        canvas.width = window.innerWidth;
+        canvas.height = window.innerHeight;
+        const letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789$#@&";
+        const fontSize = 16;
+        const columns = canvas.width / fontSize;
+        const drops = Array(Math.floor(columns)).fill(1);
+
+        function draw() {
+            ctx.fillStyle = "rgba(0, 0, 0, 0.05)";
+            ctx.fillRect(0, 0, canvas.width, canvas.height);
+            ctx.fillStyle = "#0f0";
+            ctx.font = fontSize + "px monospace";
+            for (let i = 0; i < drops.length; i++) {
+                const text = letters.charAt(Math.floor(Math.random() * letters.length));
+                ctx.fillText(text, i * fontSize, drops[i] * fontSize);
+                if (drops[i] * fontSize > canvas.height && Math.random() > 0.975) drops[i] = 0;
+                drops[i]++;
+            }
+        }
+        setInterval(draw, 33);
+    </script>
+</body>
+</html>
