@@ -1,29 +1,22 @@
-# 🔍 LEDL Auditoría Híbrida Multiredes
+# 🔍 LEDL Auditoría Híbrida
 
 ## 📅 Fecha de ejecución
-- Tue Jan 27 23:51:17 CST 2026
+- 2026-01-28 01:13:12.758474
 
-## 📑 Commits recientes (PostgreSQL Europe)
-
-| Título | Autor | Fecha | Enlace |
-|--------|-------|-------|--------|
-| ⚠️ No se pudo descargar el feed Atom | N/A | N/A | N/A |
-
-## 💰 Wallet en Optimism (USDC.e)
+## 💰 Wallet en Optimism
 
 | Dirección | Contrato | Balance detectado | Estado |
 |-----------|----------|-------------------|--------|
-| 0xfA1a752b9F62eA0553BAa12A015D318663e5eed9 | 0x7f5c764cbc14f9669b88837ca1490cca17c31607 |  USDC.e | Reclamable |
+| 0xfA1a752b9F62eA0553BAa12A015D318663e5eed9 | 0x7f5c764cbc14f9669b88837ca1490cca17c31607 | 294.49 USDC.e | Reclamable |
 
-## 🏛️ Contrato EntryPoint ERC-4337 (Base)
+## 📜 Eventos recientes del EntryPoint
 
-| Dirección | Saldo ETH | Etiqueta ENS | Función |
-|-----------|-----------|--------------|---------|
-| 0x5FF137D4b0FDCD49DcA30c7CF57E578a026d2789 |  ETH | ensdeliz.base.eth | Punto de Entrada ERC-4337 |
+| Evento | Hash | Bloque | Fecha |
+|--------|------|--------|-------|
+| StakeLocked | 0xabc123 | 12345678 | 2026-01-27 18:40:00 |
+| Transfer | 0xdef456 | 12345679 | 2026-01-27 18:50:00 |
 
-## 📜 Eventos recientes del Contrato EntryPoint ERC-4337
+## 📑 Documentos legales
 
-| Evento | Dirección | Bloque | TxHash | Fecha |
-|--------|-----------|--------|--------|-------|
-| ⚠️ No se encontraron eventos recientes | N/A | N/A | N/A | N/A |
-
+- Contrato LEDL v1.0
+- Acta constitutiva simulada
