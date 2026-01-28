@@ -490,3 +490,18 @@ ef357b14d5cdf92ad98cfb5596c390800f019e7d8004ae61cfadd8b0fa2e9689  /data/data/com
 [Tue Jan 27 19:18:10 CST 2026] ⚠️ Wallet aún sin efectivo en BNB, balance: 0 ETH
 [Tue Jan 27 19:18:10 CST 2026] 🔄 Ejecutando ciclo LEXBOT...
 [Tue Jan 27 19:18:10 CST 2026] 🔗 Hash SHA256: 39bb73064d8a9aa745cae1158e12446b871858a15f1aa9c21cdf54c83908f551
+[Tue Jan 27 19:22:52 CST 2026] 🔄 Iniciando ciclo autosanador multi-red...
+[Tue Jan 27 19:22:53 CST 2026] 🧠 LEDL pensamiento crudo en Arbitrum: {"status":"0","message":"NOTOK","result":"You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration"}
+[Tue Jan 27 19:22:53 CST 2026] ⚠️ Respuesta no numérica en Arbitrum: You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration
+[Tue Jan 27 19:22:53 CST 2026] ⚠️ Wallet aún sin efectivo en Arbitrum, balance: 0 ETH
+[Tue Jan 27 19:22:53 CST 2026] 🧠 LEDL pensamiento crudo en Base: {"status":"0","message":"NOTOK","result":"You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration"}
+[Tue Jan 27 19:22:53 CST 2026] ⚠️ Respuesta no numérica en Base: You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration
+[Tue Jan 27 19:22:53 CST 2026] ⚠️ Wallet aún sin efectivo en Base, balance: 0 ETH
+[Tue Jan 27 19:22:54 CST 2026] 🧠 LEDL pensamiento crudo en Ethereum: {"status":"0","message":"NOTOK","result":"You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration"}
+[Tue Jan 27 19:22:54 CST 2026] ⚠️ Respuesta no numérica en Ethereum: You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration
+[Tue Jan 27 19:22:54 CST 2026] ⚠️ Wallet aún sin efectivo en Ethereum, balance: 0 ETH
+[Tue Jan 27 19:22:54 CST 2026] 🧠 LEDL pensamiento crudo en BNB: {"status":"0","message":"NOTOK","result":"You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration"}
+[Tue Jan 27 19:22:54 CST 2026] ⚠️ Respuesta no numérica en BNB: You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration
+[Tue Jan 27 19:22:54 CST 2026] ⚠️ Wallet aún sin efectivo en BNB, balance: 0 ETH
+[Tue Jan 27 19:22:54 CST 2026] 🔄 Ejecutando ciclo LEXBOT...
+[Tue Jan 27 19:22:54 CST 2026] 🔗 Hash SHA256: 39bb73064d8a9aa745cae1158e12446b871858a15f1aa9c21cdf54c83908f551
