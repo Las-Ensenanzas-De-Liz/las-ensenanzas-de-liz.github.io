@@ -448,3 +448,6 @@ ef357b14d5cdf92ad98cfb5596c390800f019e7d8004ae61cfadd8b0fa2e9689  /data/data/com
 [Tue Jan 27 18:52:11 CST 2026] ⚠️ Wallet aún sin efectivo en BNB, balance: 0 ETH
 [Tue Jan 27 18:52:11 CST 2026] 🔄 Ejecutando ciclo LEXBOT...
 [Tue Jan 27 18:52:11 CST 2026] 🔗 Hash SHA256: 39bb73064d8a9aa745cae1158e12446b871858a15f1aa9c21cdf54c83908f551
+[Tue Jan 27 18:53:17 CST 2026] ⚠️ Error en BNB: You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration
+[Tue Jan 27 18:53:25 CST 2026] 🔄 Ejecutando ciclo LEXBOT...
+[Tue Jan 27 18:53:25 CST 2026] 🔗 Hash SHA256: 39bb73064d8a9aa745cae1158e12446b871858a15f1aa9c21cdf54c83908f551
