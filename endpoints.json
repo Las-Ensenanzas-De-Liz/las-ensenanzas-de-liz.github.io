@@ -1,0 +1,12 @@
+{
+  "networks": [
+    {"name": "Base Mainnet", "rpc": "https://mainnet.base.org", "status": "Production"},
+    {"name": "Ethereum", "rpc": "https://mainnet.infura.io/v3/025aba17bbfd432bbe23391f61810de", "status": "Active"},
+    {"name": "Scroll", "rpc": "https://rpc.scroll.io", "status": "Backup"}
+  ],
+  "hosting": {
+    "static": "GitHub Pages / Vercel",
+    "dynamic": "Railway (Free Tier)",
+    "cost": "$0.00 USD"
+  }
+}

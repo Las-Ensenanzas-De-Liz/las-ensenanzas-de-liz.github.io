@@ -1,0 +1,11 @@
+{
+  "investigador": "J Andres Resendez R.",
+  "orcid": "0009-0007-3528-9413",
+  "puntos_de_accion": {
+    "capa_financiera": "Sincronizar BIM/Afore con Jaula de 87M",
+    "capa_web3": "Validar Contrato ERC-4337 en Base Network",
+    "capa_core": "Protección de Backup PGP 20260125",
+    "capa_interfaz": "Despliegue de Dashboard en puerto 3000"
+  },
+  "estatus_jaula": "Acreditada - Requiere Dispersión"
+}
