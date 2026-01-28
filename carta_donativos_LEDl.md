@@ -1,17 +1,9 @@
 # Carta de Donativos – Asociación Civil LAS ENSEÑANZAS DE LIZ
 
-Estimados miembros y aliados,
+Patrimonio digital soberano LEDL: **931.50 USD**  
+Vacío y destinado íntegramente a donativos.
 
-Por medio de la presente, se informa que el patrimonio digital soberano de LEDL,
-reflejado en múltiples cadenas y tokens, asciende a un total de **931.50 USD**.
-
-Este patrimonio ha sido **vaciado y destinado íntegramente a donativos**, con el fin de:
-
-- Defender la libertad tecnológica frente a monopolios.
-- Garantizar el uso ético y auditable de sistemas autónomos.
-- Apoyar proyectos comunitarios y donativos soberanos.
-
-Distribución original (ahora transferida a donativos):
+Distribución original:
 - BNB_BNB: 0.45 USD (0 %)
 - Ethereum_ETH: 483.68 USD (51.00 %)
 - Base_USDC: 11.18 USD (1.00 %)
