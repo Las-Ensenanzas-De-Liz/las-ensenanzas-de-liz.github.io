@@ -1,7 +1,7 @@
 # 🔍 LEDL Auditoría Híbrida Multiredes
 
 ## 📅 Fecha de ejecución
-- Tue Jan 27 23:49:31 CST 2026
+- Tue Jan 27 23:51:05 CST 2026
 
 ## 📑 Commits recientes (PostgreSQL Europe)
 
@@ -20,4 +20,10 @@
 | Dirección | Saldo ETH | Etiqueta ENS | Función |
 |-----------|-----------|--------------|---------|
 | 0x5FF137D4b0FDCD49DcA30c7CF57E578a026d2789 |  ETH | ensdeliz.base.eth | Punto de Entrada ERC-4337 |
+
+## 📜 Eventos recientes del Contrato EntryPoint ERC-4337
+
+| Evento | Dirección | Bloque | TxHash | Fecha |
+|--------|-----------|--------|--------|-------|
+| ⚠️ No se encontraron eventos recientes | N/A | N/A | N/A | N/A |
 
