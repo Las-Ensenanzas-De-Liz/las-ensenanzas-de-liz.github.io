@@ -1,0 +1,67 @@
+body {
+    font-family: system-ui, -apple-system, sans-serif;
+    background: linear-gradient(135deg, #0f1b3a, #1e3a8a);
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+.header {
+    background: linear-gradient(90deg, #1e40af, #3b82f6);
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+.header h1 {
+    font-size: 2.4em;
+    margin: 0;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+}
+.slogan { font-size: 1.25em; margin: 8px 0 0 0; color: #facc15; }
+
+nav {
+    background: rgba(255,255,255,0.1);
+    padding: 15px;
+    text-align: center;
+    backdrop-filter: blur(10px);
+}
+nav a {
+    color: white;
+    margin: 8px;
+    padding: 12px 18px;
+    background: rgba(255,255,255,0.15);
+    border-radius: 9999px;
+    text-decoration: none;
+    display: inline-block;
+}
+nav a:hover { background: #facc15; color: #1e3a8a; font-weight: bold; }
+
+.section {
+    padding: 25px 20px;
+    margin: 15px;
+    background: rgba(255,255,255,0.95);
+    border-radius: 16px;
+    color: #1e3a8a;
+}
+.section h2 {
+    color: #1e40af;
+    border-bottom: 3px solid #facc15;
+    padding-bottom: 8px;
+}
+.btn {
+    background: #facc15;
+    color: #1e3a8a;
+    padding: 14px 28px;
+    border: none;
+    border-radius: 9999px;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 10px 0;
+}
+footer {
+    background: #0f172a;
+    color: #94a3b8;
+    text-align: center;
+    padding: 25px 20px;
+    font-size: 0.9em;
+}

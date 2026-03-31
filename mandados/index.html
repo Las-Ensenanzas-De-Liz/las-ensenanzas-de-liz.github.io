@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Te Hacemos Los Mandados – Valle del Roble | LEDL</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+</head>
+<body>
+
+<div class="header">
+    <h1>TE HACEMOS LOS MANDADOS</h1>
+    <p class="slogan">LEDL • Valle del Roble</p>
+</div>
+
+<div class="container" style="max-width:1100px; margin:auto; padding:20px;">
+
+    <nav>
+        <a href="cliente.html">👤 Cliente</a>
+        <a href="repartidor.html">🚴 Repartidor</a>
+        <a href="negocio.html">🏪 Negocio</a>
+        <a href="dashboard.html">📊 Dashboard</a>
+        <a href="qr.html">🔳 QR</a>
+    </nav>
+
+    <div class="section">
+        <h2>Para Clientes</h2>
+        <ol>
+            <li>Escanea el QR</li>
+            <li>Pide tu mandado</li>
+            <li>Recibe cotización inmediata</li>
+            <li>Aprueba y paga seguro</li>
+            <li>Recibe en tu casa</li>
+        </ol>
+    </div>
+
+    <div class="section">
+        <h2>Para Repartidores</h2>
+        <ol>
+            <li>Recibe notificaciones</li>
+            <li>Acepta según disponibilidad</li>
+            <li>Entrega con validación QR</li>
+            <li>Cobra seguro</li>
+        </ol>
+    </div>
+
+    <div class="section">
+        <h2>Para Negocios</h2>
+        <ol>
+            <li>Publica tus productos</li>
+            <li>Recibe pedidos locales</li>
+            <li>Aumenta tus ventas</li>
+            <li>Revisa tu dashboard</li>
+        </ol>
+    </div>
+
+    <div style="text-align:center; margin:40px 0;" id="qr-main"></div>
+
+</div>
+
+<footer>
+    <p><strong>Licencia:</strong> LAS ENSEÑANZAS DE LIZ A.C. • Acta Constitutiva: LAS ENSEÑANZAS DE LIZ AC SFDL</p>
+    <p>Autor: J ANDRÉS RESÉNDEZ R. • Derechos Reservados 2024—2026</p>
+    <p>🛡️ LO IMPOSIBLE NO EXISTE • Ecosistema LEDL Valle del Roble</p>
+</footer>
+
+<script>
+new QRCode(document.getElementById("qr-main"), {
+    text: "https://las-ensenanzas-de-liz.github.io/mandados/",
+    width: 280,
+    height: 280,
+    colorDark: "#1e40af",
+    colorLight: "#ffffff"
+});
+</script>
+</body>
+</html>
