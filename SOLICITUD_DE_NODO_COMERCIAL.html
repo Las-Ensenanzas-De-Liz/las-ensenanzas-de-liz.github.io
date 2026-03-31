@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+<head>
+    <meta charset="UTF-8">
+    <title>Puntos Oficiales LEDL | Negocios</title>
+    <style>
+        body { background: #0d1117; color: #c9d1d9; font-family: monospace; padding: 30px; text-align: center; }
+        .card { background: #161b22; border: 1px solid #30363d; padding: 20px; border-radius: 10px; max-width: 500px; margin: auto; }
+        .price { font-size: 24px; color: #238636; font-weight: bold; margin: 15px 0; }
+        input, select { width: 90%; padding: 10px; margin: 10px 0; background: #0d1117; color: white; border: 1px solid #30363d; }
+        button { background: #238636; color: white; padding: 15px; border: none; cursor: pointer; width: 95%; font-weight: bold; }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h1>🏪 ALTA DE NODO COMERCIAL</h1>
+        <p>Convierta su negocio en Punto de Entrega Oficial de la Red LEDL.</p>
+        <div class="price">Suscripción: $150.00 MXN / Mes</div>
+        
+        <form action="https://formspree.io/f/TU_ID_AQUI" method="POST">
+            <input type="text" name="negocio" placeholder="Nombre del Establecimiento" required>
+            <input type="text" name="giro" placeholder="Giro (Tienda, Farmacia, etc.)" required>
+            <select name="zona">
+                <option value="valle_del_roble">Valle del Roble</option>
+                <option value="monterrey_centro">Monterrey Centro</option>
+                <option value="cadereyta">Cadereyta Jiménez</option>
+            </select>
+            <button type="submit">SOLICITAR AFILIACIÓN</button>
+        </form>
+        <p style="font-size: 10px; color: #8b949e; margin-top: 15px;">Autorizado por: J ANDRES RESENDEZ R.</p>
+    </div>
+</body>
+</html>
