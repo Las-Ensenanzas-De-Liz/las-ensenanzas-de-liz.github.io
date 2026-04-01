@@ -1,0 +1,12 @@
+# EXCLUSIONES GLOBALES DEL ECOSISTEMA LEDL
+.git/
+.cache/
+.termux/
+node_modules/
+__pycache__/
+*.key
+*.env
+secrets.env
+LEDL_AUTH.key*
+storage/
+downloads/
