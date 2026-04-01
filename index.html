@@ -2,16 +2,50 @@
 <html lang="es-MX">
 <head>
     <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TE HACEMOS LOS MANDADOS | LOGÍSTICA LEDL</title>
+    <title>LOGIN | CEREBRO OPERATIVO LEDL</title>
     <style>
-        body { background: #000; color: #0f0; font-family: 'Courier New', monospace; text-align: center; padding-top: 50px; }
-        .logo { font-size: 20px; border: 1px solid #0f0; padding: 15px; display: inline-block; }
-        .status { color: #ff0; font-size: 12px; margin-top: 20px; }
+        body { background: #000; color: #d4af37; font-family: 'Courier New', monospace; display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0; overflow: hidden; }
+        .box { border: 2px solid #0047ff; padding: 30px; box-shadow: 0 0 20px #0047ff; background: rgba(0,0,0,0.95); border-radius: 8px; width: 320px; text-align: center; }
+        h1 { font-size: 18px; letter-spacing: 3px; margin-bottom: 20px; color: #fff; }
+        input { width: 90%; padding: 10px; margin: 10px 0; background: #111; border: 1px solid #333; color: #0f0; font-family: inherit; text-align: center; }
+        .btn-login { width: 97%; padding: 12px; background: #d4af37; color: #000; border: none; font-weight: bold; cursor: pointer; margin-top: 15px; }
+        .btn-login:hover { background: #fff; box-shadow: 0 0 15px #fff; }
+        #dashboard { display: none; }
+        .menu-btn { display: block; width: 280px; padding: 15px; margin: 15px auto; border: 1px solid #d4af37; color: #d4af37; text-decoration: none; font-weight: bold; }
+        .menu-btn:hover { background: #0047ff; color: #fff; border-color: #fff; }
     </style>
 </head>
 <body>
-    <div class="logo">TE HACEMOS LOS MANDADOS<br><small>VALLE DEL ROBLE - CADEREYTA</small></div>
-    <div class="status">RAMA ACTIVA: LOGÍSTICA V1.0</div>
-    <p>Sincronizado con el Cerebro Operativo LEDL</p>
+    <div id="login-gate" class="box">
+        <h1>AUTH REQUERIDA</h1>
+        <input type="text" id="user" placeholder="USUARIO / GOOGLE ID">
+        <input type="email" id="email" placeholder="CORREO ASOCIADO">
+        <input type="password" id="pass" placeholder="PASSWORD MAESTRO">
+        <button class="btn-login" onclick="validate()">ACCEDER AL NÚCLEO</button>
+    </div>
+
+    <div id="dashboard" class="box">
+        <h1 style="color:#d4af37">CEREBRO OPERATIVO LEDL</h1>
+        <h2 style="color:#fff; font-size:12px; opacity:0.6">ADMIN: J. ANDRES RESENDEZ R.</h2>
+        <a href="mapa_conquista.html" class="menu-btn">🌐 MAPA DE CONQUISTA</a>
+        <a href="https://las-ensenanzas-de-liz.github.io/te-hacemos-los-mandados/" class="menu-btn">🌿 RAMA: MANDADOS</a>
+        <div style="font-size:10px; color:#0f0; margin-top:20px;">SISTEMA ONLINE - V78.0</div>
+    </div>
+
+    <script>
+        function validate() {
+            const u = document.getElementById('user').value;
+            const e = document.getElementById('email').value;
+            const p = document.getElementById('pass').value;
+            // VALIDACIÓN SIMPLE (Sustituir por tus datos reales al desplegar)
+            if(u === "Andres" && e.includes("gmail.com") && p !== "") {
+                document.getElementById('login-gate').style.display = 'none';
+                document.getElementById('dashboard').style.display = 'block';
+            } else {
+                alert("ACCESO DENEGADO - INTENTO REGISTRADO");
+                location.reload();
+            }
+        }
+    </script>
 </body>
 </html>
