@@ -2,50 +2,26 @@
 <html lang="es-MX">
 <head>
     <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LOGIN | CEREBRO OPERATIVO LEDL</title>
+    <title>TE HACEMOS LOS MANDADOS | LEDL</title>
     <style>
-        body { background: #000; color: #d4af37; font-family: 'Courier New', monospace; display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0; overflow: hidden; }
-        .box { border: 2px solid #0047ff; padding: 30px; box-shadow: 0 0 20px #0047ff; background: rgba(0,0,0,0.95); border-radius: 8px; width: 320px; text-align: center; }
-        h1 { font-size: 18px; letter-spacing: 3px; margin-bottom: 20px; color: #fff; }
-        input { width: 90%; padding: 10px; margin: 10px 0; background: #111; border: 1px solid #333; color: #0f0; font-family: inherit; text-align: center; }
-        .btn-login { width: 97%; padding: 12px; background: #d4af37; color: #000; border: none; font-weight: bold; cursor: pointer; margin-top: 15px; }
-        .btn-login:hover { background: #fff; box-shadow: 0 0 15px #fff; }
-        #dashboard { display: none; }
-        .menu-btn { display: block; width: 280px; padding: 15px; margin: 15px auto; border: 1px solid #d4af37; color: #d4af37; text-decoration: none; font-weight: bold; }
-        .menu-btn:hover { background: #0047ff; color: #fff; border-color: #fff; }
+        body { background: #000; color: #0f0; font-family: 'Courier New', monospace; display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100vh; margin: 0; }
+        .app-box { border: 2px solid #0f0; padding: 30px; box-shadow: 0 0 20px #0f0; background: rgba(0,20,0,0.9); border-radius: 15px; width: 340px; text-align: center; }
+        .header { font-weight: bold; font-size: 18px; color: #fff; margin-bottom: 10px; text-transform: uppercase; }
+        .location { color: #ffff00; font-size: 12px; margin-bottom: 25px; letter-spacing: 2px; }
+        .btn-action { display: block; width: 90%; padding: 15px; margin: 10px auto; background: #0f0; color: #000; text-decoration: none; font-weight: bold; border-radius: 5px; transition: 0.3s; }
+        .btn-action:hover { background: #fff; transform: scale(1.05); }
+        .footer { margin-top: 25px; font-size: 9px; color: #0f0; opacity: 0.7; }
     </style>
 </head>
 <body>
-    <div id="login-gate" class="box">
-        <h1>AUTH REQUERIDA</h1>
-        <input type="text" id="user" placeholder="USUARIO / GOOGLE ID">
-        <input type="email" id="email" placeholder="CORREO ASOCIADO">
-        <input type="password" id="pass" placeholder="PASSWORD MAESTRO">
-        <button class="btn-login" onclick="validate()">ACCEDER AL NÚCLEO</button>
+    <div class="app-box">
+        <div class="header">TE HACEMOS LOS MANDADOS</div>
+        <div class="location">VALLE DEL ROBLE - CADEREYTA</div>
+        
+        <a href="SOLICITUD_DE_NODO_COMERCIAL.html" class="btn-action">📦 SOLICITAR MANDADO</a>
+        <a href="https://las-ensenanzas-de-liz.github.io" class="btn-action" style="background:#444; color:#fff;">⚙️ VOLVER AL CEREBRO</a>
+        
+        <div class="footer">SISTEMA DE LOGÍSTICA V81.0 | J. ANDRES RESENDEZ R.</div>
     </div>
-
-    <div id="dashboard" class="box">
-        <h1 style="color:#d4af37">CEREBRO OPERATIVO LEDL</h1>
-        <h2 style="color:#fff; font-size:12px; opacity:0.6">ADMIN: J. ANDRES RESENDEZ R.</h2>
-        <a href="mapa_conquista.html" class="menu-btn">🌐 MAPA DE CONQUISTA</a>
-        <a href="https://las-ensenanzas-de-liz.github.io/te-hacemos-los-mandados/" class="menu-btn">🌿 RAMA: MANDADOS</a>
-        <div style="font-size:10px; color:#0f0; margin-top:20px;">SISTEMA ONLINE - V78.0</div>
-    </div>
-
-    <script>
-        function validate() {
-            const u = document.getElementById('user').value;
-            const e = document.getElementById('email').value;
-            const p = document.getElementById('pass').value;
-            // VALIDACIÓN SIMPLE (Sustituir por tus datos reales al desplegar)
-            if(u === "Andres" && e.includes("gmail.com") && p !== "") {
-                document.getElementById('login-gate').style.display = 'none';
-                document.getElementById('dashboard').style.display = 'block';
-            } else {
-                alert("ACCESO DENEGADO - INTENTO REGISTRADO");
-                location.reload();
-            }
-        }
-    </script>
 </body>
 </html>
