@@ -1,0 +1,7 @@
+# LIMPIEZA FANTASMA LEDL - J. ANDRES RESENDEZ R.
+history -c
+rm -f ~/.bash_history
+rm -f ~/.git/index.lock
+rm -f ~/.git/config.lock
+clear
+echo "--- SESIÓN LEDL FINALIZADA: RASTROS ELIMINADOS ---"
