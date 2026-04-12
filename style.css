@@ -1,4 +1,12 @@
-body { background: #0a0a0a; color: #00ff00; font-family: 'Courier New', monospace; }
-.grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; padding: 20px; }
-.card { border: 1px solid #00ff00; padding: 20px; border-radius: 10px; background: #111; }
-.header { text-align: center; border-bottom: 2px solid #00ff00; padding: 10px; }
+body { background: #050505; color: #00ff41; font-family: 'Segoe UI', Tahoma, sans-serif; margin: 0; }
+.header { background: #111; padding: 10px; text-align: center; border-bottom: 2px solid #00ff41; box-shadow: 0 0 15px #00ff41; }
+.main-container { display: flex; flex-wrap: wrap; padding: 20px; justify-content: center; gap: 20px; }
+.video-feed { border: 3px solid #00ff41; border-radius: 5px; position: relative; width: 640px; height: 480px; background: #000; }
+.video-feed img { width: 100%; height: 100%; }
+.status-overlay { position: absolute; top: 10px; left: 10px; background: rgba(0,0,0,0.7); padding: 5px; font-size: 12px; }
+.controls-panel { background: #111; border: 1px solid #00ff41; padding: 20px; border-radius: 5px; min-width: 250px; }
+.btn-group { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+button { background: #000; color: #00ff41; border: 1px solid #00ff41; padding: 10px; cursor: pointer; transition: 0.3s; font-weight: bold; }
+button:hover { background: #00ff41; color: #000; }
+.btn-special { border-color: #ff00ff; color: #ff00ff; }
+.btn-special:hover { background: #ff00ff; color: #000; }
