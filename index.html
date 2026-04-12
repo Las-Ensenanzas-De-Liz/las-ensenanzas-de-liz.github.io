@@ -10,7 +10,7 @@
     
     <div class="main-container">
         <div class="video-feed">
-            <img src="http://192.168.0.108/cgi-bin/snapshot.cgi" id="camStream" alt="Cámara Offline - Verifique Red">
+            <img src="https://included-epinions-explosion-bathrooms.trycloudflare.com/cgi-bin/snapshot.cgi" id="camStream" alt="Cámara Offline - Verifique Red">
             <div class="status-overlay">LIVE: CANAL 1</div>
         </div>
 
@@ -40,7 +40,7 @@
         }
         // Refresco automático del snapshot cada 1 segundo (Simulación de Live)
         setInterval(function(){
-            document.getElementById('camStream').src = "http://192.168.0.108/cgi-bin/snapshot.cgi?t=" + new Date().getTime();
+            document.getElementById('camStream').src = "https://included-epinions-explosion-bathrooms.trycloudflare.com/cgi-bin/snapshot.cgi?t=" + new Date().getTime();
         }, 1000);
     </script>
 </body>
