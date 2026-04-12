@@ -1,47 +1,22 @@
 <!DOCTYPE html>
-<html lang="es">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>Monitor Maestro LEDL v5.9.2</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Matriz LEDL v5.9.2 - 4 Canales</title>
+    <style>
+        body { background: #000; color: #0f0; font-family: monospace; }
+        .grid-4 { display: grid; grid-template-columns: 1fr 1fr; gap: 5px; padding: 10px; }
+        .cam-box { border: 2px solid #0f0; height: 300px; overflow: hidden; }
+        .cam-box img { width: 100%; height: 100%; object-fit: cover; }
+        .header { text-align: center; border-bottom: 2px solid #0f0; }
+    </style>
 </head>
 <body>
-    <div class="header"><h1>Centro de Control Maestro - JARR</h1></div>
-    
-    <div class="main-container">
-        <div class="video-feed">
-            <img src="https://included-epinions-explosion-bathrooms.trycloudflare.com/cgi-bin/snapshot.cgi" id="camStream" onerror="alert("Error de carga: Verifique autenticación de cámara")" alt="Cámara Offline - Verifique Red">
-            <div class="status-overlay">LIVE: CANAL 1</div>
-        </div>
-
-        <div class="controls-panel">
-            <h3>Comandos Disponibles</h3>
-            <div class="btn-group">
-                <button onclick="sendCommand('ptz.cgi?action=start&channel=1&code=Up&arg1=0&arg2=5&arg3=0')">▲ SUBIR</button>
-                <button onclick="sendCommand('ptz.cgi?action=start&channel=1&code=Down&arg1=0&arg2=5&arg3=0')">▼ BAJAR</button>
-                <button onclick="sendCommand('ptz.cgi?action=start&channel=1&code=Left&arg1=0&arg2=5&arg3=0')">◀ IZQ</button>
-                <button onclick="sendCommand('ptz.cgi?action=start&channel=1&code=Right&arg1=0&arg2=5&arg3=0')">DER ▶</button>
-                <button onclick="sendCommand('ptz.cgi?action=start&channel=1&code=ZoomIn&arg1=0&arg2=5&arg3=0')" class="btn-special">ZOOM +</button>
-                <button onclick="sendCommand('ptz.cgi?action=start&channel=1&code=ZoomOut&arg1=0&arg2=5&arg3=0')" class="btn-special">ZOOM -</button>
-            </div>
-            <hr>
-            <div class="system-status">
-                <p>Identidad: <span id="auth-tag">JARR VALIDATED</span></p>
-                <button onclick="location.reload()" style="width:100%">REFRESCAR NÚCLEO</button>
-            </div>
-        </div>
+    <div class="header"><h1>MATRIZ DE VIGILANCIA JARR</h1></div>
+    <div class="grid-4">
+        <div class="cam-box"><img src="https://included-epinions-explosion-bathrooms.trycloudflare.com/cgi-bin/snapshot.cgi?channel=1" onerror="this.src='error.jpg'"></div>
+        <div class="cam-box"><img src="https://included-epinions-explosion-bathrooms.trycloudflare.com/cgi-bin/snapshot.cgi?channel=2" onerror="this.src='error.jpg'"></div>
+        <div class="cam-box"><img src="https://included-epinions-explosion-bathrooms.div/cgi-bin/snapshot.cgi?channel=3" onerror="this.src='error.jpg'"></div>
+        <div class="cam-box"><img src="https://included-epinions-explosion-bathrooms.trycloudflare.com/cgi-bin/snapshot.cgi?channel=4" onerror="this.src='error.jpg'"></div>
     </div>
-
-    <script>
-        function sendCommand(cmd) {
-            console.log("Enviando comando JARR: " + cmd);
-            // Aquí se conecta con el orquestador local para ejecutar el curl
-            alert("Comando enviado al DVR: " + cmd);
-        }
-        // Refresco automático del snapshot cada 1 segundo (Simulación de Live)
-        setInterval(function(){
-            document.getElementById('camStream').src = "https://included-epinions-explosion-bathrooms.trycloudflare.com/cgi-bin/snapshot.cgi?t=" + new Date().getTime();
-        }, 1000);
-    </script>
 </body>
 </html>
