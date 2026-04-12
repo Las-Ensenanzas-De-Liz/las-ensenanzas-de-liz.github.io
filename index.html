@@ -1,20 +1,17 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Dashboard LEDL - DMSS WebRTC</title>
-    <style>
-        body { background: #000; color: #0f0; margin: 0; padding: 10px; }
-        .grid-4 { display: grid; grid-template-columns: 1fr 1fr; gap: 5px; }
-        .cam-box { height: 300px; background: #111; border: 1px solid #0f0; }
-        iframe { width: 100%; height: 100%; border: none; }
-    </style>
+    <title>DEBUG LEDL</title>
 </head>
-<body>
-    <div class="grid-4">
-        <div class="cam-box"><iframe src="https://included-epinions-explosion-bathrooms.trycloudflare.com:1984/stream.html?src=cam1"></iframe></div>
-        <div class="cam-box"><iframe src="https://included-epinions-explosion-bathrooms.trycloudflare.com:1984/stream.html?src=cam2"></iframe></div>
-        <div class="cam-box"><iframe src="https://included-epinions-explosion-bathrooms.trycloudflare.com:1984/stream.html?src=cam3"></iframe></div>
-        <div class="cam-box"><iframe src="https://included-epinions-explosion-bathrooms.trycloudflare.com:1984/stream.html?src=cam4"></iframe></div>
+<body style="background:black; color:green; font-family:monospace;">
+    <h1>Nodo de Vigilancia: Estado de Red</h1>
+    <div id="status">Verificando conexión con túnel...</div>
+    <div id="grid" style="display:grid; grid-template-columns:1fr 1fr; gap:5px;">
+        <div class="cam"><img src="https://included-epinions-explosion-bathrooms.trycloudflare.com/cgi-bin/snapshot.cgi?channel=1" width="100%" onerror="this.style.border='2px solid red'; this.parentElement.innerHTML+='<br>ERROR: Tunnel Refused'"></div>
+        <div class="cam"><img src="https://included-epinions-explosion-bathrooms.trycloudflare.com/cgi-bin/snapshot.cgi?channel=2" width="100%" onerror="this.style.border='2px solid red'; this.parentElement.innerHTML+='<br>ERROR: Tunnel Refused'"></div>
     </div>
+    <script>
+        console.log("Iniciando sondeo...");
+    </script>
 </body>
 </html>

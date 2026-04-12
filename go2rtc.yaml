@@ -1,0 +1,5 @@
+streams:
+  cam1: rtsp://JARR:RERj870429@192.168.0.108:554/cam/realmonitor?channel=1&subtype=0
+  cam2: rtsp://JARR:RERj870429@192.168.0.108:554/cam/realmonitor?channel=2&subtype=0
+  cam3: rtsp://JARR:RERj870429@192.168.0.108:554/cam/realmonitor?channel=3&subtype=0
+  cam4: rtsp://JARR:RERj870429@192.168.0.108:554/cam/realmonitor?channel=4&subtype=0
